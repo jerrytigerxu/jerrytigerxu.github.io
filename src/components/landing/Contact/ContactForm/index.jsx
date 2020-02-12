@@ -40,7 +40,7 @@ const ContactForm = ({
 				as={FastField}
 				type="email"
 				name="email"
-				placeholder="Email*"
+				placeholder="Email Address*"
 				error={touched.email && errors.email}
 			/>
 			<ErrorMessage component={Error} name="email" />

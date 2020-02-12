@@ -27,6 +27,7 @@ module.exports = {
         fetchOptions: {},
       },
     },
+
     {
       resolve: 'gatsby-plugin-nprogress',
       options: {
