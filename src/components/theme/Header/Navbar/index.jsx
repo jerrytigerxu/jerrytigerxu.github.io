@@ -3,11 +3,12 @@ import { Link } from 'gatsby'
 import { Container } from 'components/common'
 import NavbarLinks from '../NavbarLinks'
 import { Wrapper } from './styles'
+import Hamburger from '../Hamburger'
 
 const Navbar = () => (
 	<Wrapper as={Container}>
 		<Link to="/">Jere Xu</Link>
-		<NavbarLinks desktop />
+	  <NavbarLinks desktop />
 	</Wrapper>
 )
 

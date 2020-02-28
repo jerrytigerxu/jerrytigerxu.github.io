@@ -1,20 +1,19 @@
 import styled from 'styled-components';
-import overlayIllustration from 'assets/illustrations/overlay.svg';
+import detailsIllustration from 'assets/illustrations/details.svg';
 
 export const Wrapper = styled.div`
-  padding-bottom: 4rem;
-  background-image: url(${overlayIllustration});
+{/*background-image: url(${detailsIllustration});*/}
   background-size: contain;
-  background-position: right top;
+  background-position: left top;
   background-repeat: no-repeat;
-  height:100vh;
 `;
 
-export const IntroWrapper = styled.div`
+export const SkillsWrapper = styled.div`
   padding: 4rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 100vh;
 
   @media (max-width: 960px) {
     flex-direction: column;
@@ -23,33 +22,35 @@ export const IntroWrapper = styled.div`
 
 export const Details = styled.div`
   flex: 1;
-  text-align: center;
+  padding-left: 1rem;
 
   @media (max-width: 960px) {
+    padding-left: unset;
     width: 100%;
-    margin-bottom: 2rem;
+  }
+
+  a:visited {
+    color: white;
   }
 
   h1 {
     margin-bottom: 2rem;
-    margin-top: 1em;
-    font-size: 56pt;
+    font-size: 66pt;
     color: #212121;
-
-    @media (max-width: 680px) {
-      font-size: 30pt;
-    }
   }
 
-  h4 {
-    margin-bottom: 2.5rem;
-    font-size: 30pt;
-    font-weight: normal;
-    color: #707070;
+  h3 {
+    color: #212121;
+    font-size: 25pt;
+    margin-bottom: 2rem;
+  }
 
-    @media (max-width: 680px) {
-      font-size: 26pt;
-    }
+  p {
+    margin-bottom: 2.5rem;
+    font-size: 15pt;
+    font-weight: normal;
+    line-height: 1.3;
+    color: #707070;
   }
 `;
 
@@ -58,9 +59,10 @@ export const Thumbnail = styled.div`
 
   @media (max-width: 960px) {
     width: 100%;
+    margin-bottom: 2rem;
   }
 
   img {
-    width: 100%;
+    width: 75%;
   }
 `;

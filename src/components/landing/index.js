@@ -1,4 +1,4 @@
 export * from './Intro';
-export * from './Skills';
+export * from './Profile';
 export * from './Contact';
 export * from './Projects';

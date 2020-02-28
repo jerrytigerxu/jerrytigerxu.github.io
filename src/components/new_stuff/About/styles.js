@@ -31,15 +31,15 @@ export const Details = styled.div`
   h1 {
     margin-bottom: 2rem;
     font-size: 26pt;
-    color: #212121;
+    color: #202121;
   }
 
   p {
     margin-bottom: 2.5rem;
-    font-size: 20pt;
+    font-size: 14pt;
     font-weight: normal;
     line-height: 1.3;
-    color: #707070;
+    color: #707170;
   }
 `;
 
