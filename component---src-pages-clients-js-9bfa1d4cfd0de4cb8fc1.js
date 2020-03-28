@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{xftC:function(e,n,t){"use strict";t.r(n);var l=t("q1tI"),a=t.n(l),c=t("1Qp6"),u=t("oR2e");n.default=function(){return a.a.createElement(c.e,null,a.a.createElement(c.f,null),a.a.createElement(u.b,null),a.a.createElement("h1",null,"This is my clients page"))}}}]);
+//# sourceMappingURL=component---src-pages-clients-js-9bfa1d4cfd0de4cb8fc1.js.map
