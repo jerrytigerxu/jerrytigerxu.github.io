@@ -3,13 +3,14 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Container, Button } from 'components/common'
 {/*import dev from 'assets/illustrations/skills.svg'*/}
 import profile from 'assets/illustrations/profile-circle.png'
+import new_profile from 'assets/illustrations/jere1.png'
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles'
 
 export const Profile = () => (
   <Wrapper id="profile">
     <SkillsWrapper as={Container}>
       <Thumbnail>
-        <img src={profile} alt="That's me you see!" />
+        <img src={new_profile} alt="That's me you see!" />
       </Thumbnail>
       <Details>
         <h1>Hi! I'm Jere.</h1>

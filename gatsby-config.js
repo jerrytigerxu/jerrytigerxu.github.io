@@ -14,32 +14,15 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     'gatsby-transformer-sharp',
-    {
-      resolve: 'gatsby-source-github',
-      options: {
-        headers: {
-          Authorization: `330bfb63141af3242e39cf54dbca3b0a7430f4ce`,
-        },
-        queries: [
-          `{
-            repository(owner: "jerrytigerxu", name: "Notes") {
-              edges {
-                node
-              }
-            }
-          }`,
-        ],
-      }
-    },
-    {
-      resolve: 'gatsby-source-git',
-      options: {
-        name: 'Notes',
-        remote: 'https://github.com/jerrytigerxu/Notes.git',
-        patterns: ['*', '!*.md']
-      }
-    },
     'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'notes',
+        path: '/home/jeretigerxu/Documents/Notes',
+      },
+    },
+    'gatsby-transformer-remark',
     {
       resolve: 'gatsby-source-graphql',
       options: {
@@ -83,7 +66,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-favicon',
       options: {
-        logo: './static/favicon/favicon-512.png',
+        logo: './static/favicon/favicon-32x32.png',
         injectHTML: true,
         icons: {
           android: true,
