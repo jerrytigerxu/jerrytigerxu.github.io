@@ -19,7 +19,7 @@ export const SEO = ({
   description = defaultDescription,
   location = '',
 }) => {
-  const structuredDataOrganization = `{ 
+  const structuredDataOrganization = `{
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"legalName": "${legalName}",
@@ -73,7 +73,7 @@ export const SEO = ({
       <meta name="twitter:image:src" content={Thumbnail} />
       <script type="application/ld+json">{structuredDataOrganization}</script>
       <link rel="publisher" href={socialLinks.google} />
-      <title>{title}</title>
+      <title>Jere Xu</title>
       <html lang="en" dir="ltr" />
     </Helmet>
   )

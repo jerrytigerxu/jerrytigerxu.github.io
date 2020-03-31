@@ -4,6 +4,7 @@ import { Header } from 'components/theme';
 
 export default () => (
   <Layout>
+    <SEO />
     <Header />
     <h1>This is my creations page</h1>
 

@@ -6,6 +6,7 @@ import { Header } from 'components/theme';
 
 export default () => (
   <Layout>
+    <SEO />
     <Header />
     <Medium />
     <Blog />
