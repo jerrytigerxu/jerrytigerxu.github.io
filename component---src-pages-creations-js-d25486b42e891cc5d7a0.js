@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{phmn:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),l=t.n(a),c=t("1Qp6"),r=t("oR2e");n.default=function(){return l.a.createElement(c.e,null,l.a.createElement(c.f,null),l.a.createElement(r.b,null),l.a.createElement("h1",null,"This is my creations page"))}}}]);
+//# sourceMappingURL=component---src-pages-creations-js-d25486b42e891cc5d7a0.js.map
