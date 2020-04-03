@@ -19,7 +19,6 @@ export const Medium = () => {
               link
               pubDate
               title
-              contentSnippet
               creator
             }
           }
@@ -43,8 +42,6 @@ export const Medium = () => {
           >
 
           <h4>{node.title}</h4>
-
-          <p>{node.contentSnippet}</p>
 
           </Item>
         ))}

@@ -4,6 +4,7 @@ import { Container, Card } from 'components/common'
 import starIcon from 'assets/icons/star.svg'
 import forkIcon from 'assets/icons/fork.svg'
 import { Wrapper, Grid, Item, Content, Stats } from './styles'
+import { Link } from 'gatsby'
 
 export const Projects = () => {
   const {
@@ -71,7 +72,7 @@ export const Projects = () => {
         ))}
       </Grid>
       <br />
-    <h2>Want to see more <a href="/creations/"><strong>projects</strong></a>?</h2>
+    <h2>Want to see more <Link to="/creations/"><strong>projects</strong></Link>?</h2>
     </Wrapper>
   )
 }

@@ -13,7 +13,7 @@ export const About = () => (
       <Details>
         <h1>Who Am I?</h1>
         <p>
-          My name is Jerry Xu. I was born in Tampa, Florida on April 18, 1998 as a Chinese-American. In the summer of 2008, my family moved from Florida to Edison, New Jersey, where I live to this day.
+          My name is Jerry Xu. 
         </p>
         <p>
           I went to high school at John P. Stevens High School from 2012 to 2016, then I started college at Rutgers University - New Brunswick, joining the Business School. Currently, I am entering my senior year at Rutgers, double majoring in Business Analytics & Information Technology (BAIT) and Finance.

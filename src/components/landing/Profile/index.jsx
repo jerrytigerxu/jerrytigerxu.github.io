@@ -5,12 +5,14 @@ import { Container, Button } from 'components/common'
 import profile from 'assets/illustrations/profile-circle.png'
 import new_profile from 'assets/illustrations/jere1.png'
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles'
+import { Link } from 'gatsby'
+import "../../styles/wickedcss.min.css"
 
 export const Profile = () => (
   <Wrapper id="profile">
     <SkillsWrapper as={Container}>
       <Thumbnail>
-        <img src={new_profile} alt="That's me you see!" />
+        <img src={new_profile} alt="That's me you see!"  class="floater" />
       </Thumbnail>
       <Details>
         <h1>Hi! I'm Jere.</h1>
@@ -19,9 +21,9 @@ export const Profile = () => (
           I specialize in online growth engineering, utilizing tools in digital marketing and web analytics, as well as machine learning and application development.
         </p>
         <Button>
-          <a href="/me/">
+          <Link to="/me/">
             Learn more about me
-          </a>
+          </Link>
         </Button>
 
       </Details>

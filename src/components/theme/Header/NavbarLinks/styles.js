@@ -6,6 +6,10 @@ export const Wrapper = styled.div`
     text-decoration: none;
   }
 
+  a:hover {
+    color: #6f03fc;
+  }
+
   ${({ desktop }) =>
     desktop
       ? `
