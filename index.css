@@ -44,7 +44,7 @@ body {
     top:0;
 }
 #box div {
-    width:16.66vw;
+    width:16.65vw;
     height:100%;
     display:inline-block;
 }
@@ -195,7 +195,7 @@ body {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(255, 50, 50);
+    background: var(--text-color);
     color:#fff;
     z-index:9;
     position:fixed;
@@ -334,14 +334,14 @@ body {
     background: #fff; 
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 50, 50); 
+    background: var(--text-color); 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 50, 50,0.8); 
+    background: var(--hover); 
 }
 ::selection {
 	color: #fff;
-	background: rgb(255, 50, 50);
+	background: var(--text-color);
 }
 
 @media (max-width: 800px){ 
