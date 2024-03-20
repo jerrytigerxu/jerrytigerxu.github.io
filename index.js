@@ -40,18 +40,18 @@ function closework(){
         $("#work_container").css("display","none");
     },800);
 }
-function showcontact(){
-    $("#contact_container").css("display","inherit");
-    $("#contact_container").addClass("animated slideInUp");
+function showinterest(){
+    $("#interests_container").css("display","inherit");
+    $("#interests_container").addClass("animated slideInUp");
     setTimeout(function(){
-        $("#contact_container").removeClass("animated slideInUp");
+        $("#interests_container").removeClass("animated slideInUp");
     },800);
 }
-function closecontact(){
-    $("#contact_container").addClass("animated slideOutDown");
+function closeinterest(){
+    $("#interests_container").addClass("animated slideOutDown");
     setTimeout(function(){
-        $("#contact_container").removeClass("animated slideOutDown");
-        $("#contact_container").css("display","none");
+        $("#interests_container").removeClass("animated slideOutDown");
+        $("#interests_container").css("display","none");
     },800);
 }
 setTimeout(function(){
